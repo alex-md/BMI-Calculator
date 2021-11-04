@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+    <style>
+        /* apply bootstrap 4 styles to H1, input, label, button, and p */
+        body {
+            padding-top: 40px;
+            padding-bottom: 40px;
+            background-color: #eee;
+        }
+        h1 {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+            color: #333333;
+        }
+        input {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 16px;
+            font-weight: normal;
+            color: #555555;
+            background-color: #ebebeb;
+            border: 1px solid #cccccc;
+        }
+        label {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 16px;
+            font-weight: normal;
+            color: #555555;
+        }
+        button {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 16px;
+            font-weight: normal;
+            color: #ffffff;
+            background-color: #0099cc;
+            border: 1px solid #007799;
+        }
+        p {
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 16px;
+            font-weight: normal;
+            color: #333333;
+        }
+
+        </style>
+    <div>
+        <h1>BMI Calculator</h1>
+          <label>Weight:</label>
+          <input type="text" id="weight">
+          <label>Height:</label>
+          <input type="text" id="height">
+          <button onclick="calculateBMI()" id="calculate">Calculate BMI</button>
+        <p id="result"></p>
+      </div>
+
+      <script src="flat.js"></script>
+</body>
+</html>
